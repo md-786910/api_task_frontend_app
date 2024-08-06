@@ -1,0 +1,21 @@
+.taskChild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--primary) !important;
+}
+
+.addTaskBtn {
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+  transition: 0.5s all;
+}
+
+.addTaskBtn:hover {
+  transform: translateY(-10px);
+}

@@ -1,0 +1,135 @@
+/*
+Color pallate : define as root color & overide bootstrap utility classes
+*/
+
+:root {
+  --primary: #667bc6;
+  --success: #77e4c8;
+  --danger: #d10363;
+  --warning: #feffd2;
+  --dark: #32012f;
+  --light: #fff6e9;
+  --light-due: #f0f3ff;
+}
+.bg-light-few {
+  background-color: #f0f3ff !important;
+}
+.bg-light {
+  background-color: #fff6e9 !important;
+}
+.bg-primary {
+  background-color: #667bc6 !important;
+}
+.bg-secondary {
+  background-color: #cde8e5 !important;
+}
+.bg-success {
+  background-color: #77e4c8 !important;
+}
+.bg-warning {
+  background-color: #feffd2 !important;
+}
+.bg-danger {
+  background-color: #d10363 !important;
+}
+.bg-dark {
+  background-color: #32012f !important;
+}
+.bg-light-due {
+  background-color: var(--light-due) !important;
+}
+
+.text-primary {
+  color: #667bc6 !important;
+}
+.text-success {
+  color: #77e4c8 !important;
+}
+.text-danger {
+  color: #d10363 !important;
+}
+.text-warning {
+  color: #feffd2 !important;
+}
+.text-dark {
+  color: #32012f !important;
+}
+.text-light {
+  color: #fff6e9 !important;
+}
+/* btn */
+.btn-primary {
+  background-color: #667bc6 !important;
+}
+.btn-success {
+  background-color: #77e4c8 !important;
+}
+.btn-danger {
+  background-color: #d10363 !important;
+}
+.btn-warning {
+  background-color: #feffd2 !important;
+}
+.btn-dark {
+  background-color: #32012f !important;
+}
+.btn-light {
+  background-color: #fff6e9 !important;
+}
+.mt-10 {
+  margin-top: 3rem;
+}
+.my-10 {
+  margin-top: 3rem;
+}
+
+.nav-link {
+  color: var(--light) !important;
+}
+.nav-link .active {
+  color: var(--primary);
+}
+
+/* control and theming font size */
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.9rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.3rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light) !important;
+}
+.active {
+  color: var(--success) !important;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark);
+}
